@@ -1,0 +1,24 @@
+textarea {
+  font-size: 20px;
+  font-family: Vildana, serif;
+  border-radius: 15px; }
+
+body {
+  background-color: #83adcf;
+  margin: 0 auto;
+  align-content: center; }
+  body input {
+    font-size: 20px;
+    font-family: Vildana, serif; }
+
+table {
+  border: 5px solid #414073; }
+
+img {
+  border-radius: 15px; }
+
+input[type="text"] {
+  border-radius: 15px; }
+
+input[type="password"] {
+  border-radius: 15px; }
