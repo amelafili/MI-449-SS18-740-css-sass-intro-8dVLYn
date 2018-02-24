@@ -1,27 +1,30 @@
 @import "_variables";
 
-textarea {
+body {
+  background-color: lighten($primary-color, 25%);
+  margin: auto;
+  max-width: 600px;
+  color: $text-color;
   font-size: $font-size;
   font-family: $font-family;
   border-radius: $border-radius;
-}
 
-body {
-  background-color: lighten($primary-color, 25%);
-  margin: 0 auto;
-
-  input {
-    font-size: $font-size;
-    font-family: $font-family;
+  textarea {
+    border-radius: $border-radius;
   }
-}
 
-table {
-  border: 5px solid $border-color;
-}
+  img {
+    border-radius: $border-radius;
+  }
 
-img {
-  border-radius: $border-radius;
+  a {
+    border: 5px solid $border-color;
+  }
+
+  table {
+    border: 5px solid $border-color;
+    border-radius: $border-radius;
+  }
 }
 
 input[type="text"] {
