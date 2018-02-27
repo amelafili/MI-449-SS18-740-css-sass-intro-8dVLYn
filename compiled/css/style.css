@@ -1,3 +1,34 @@
-body{background-color:#83adcf;margin:auto;max-width:600px;color:#4c3957;font-size:20px;font-family:Vildana,serif;border-radius:15px}body textarea{border-radius:15px}body img{border-radius:15px}body a{border:5px solid #414073}body table{border:5px solid #414073;border-radius:15px}input[type="text"]{border-radius:15px}input[type="password"]{border-radius:15px}
+body {
+  background-color: #83adcf;
+  margin: auto;
+  max-width: 600px;
+  color: #4c3957;
+  font-size: 20px;
+  font-family: Vildana, serif;
+  border-radius: 15px; }
 
-/*# sourceMappingURL=style.css.map */
+textarea {
+  border-radius: 15px; }
+
+img {
+  border-radius: 15px; }
+
+a {
+  border: 5px solid #414073; }
+  a:hover {
+    color: #70a37f; }
+
+table {
+  border: 5px solid #414073;
+  border-radius: 15px; }
+
+button {
+  font-size: 20px;
+  font-family: Vildana, serif; }
+  button:active {
+    color: #70a37f; }
+
+input,
+textarea {
+  border: 5px solid black;
+  border-radius: 15px; }

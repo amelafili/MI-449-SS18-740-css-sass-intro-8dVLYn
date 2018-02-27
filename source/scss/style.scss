@@ -8,29 +8,40 @@ body {
   font-size: $font-size;
   font-family: $font-family;
   border-radius: $border-radius;
-
-  textarea {
-    border-radius: $border-radius;
-  }
-
-  img {
-    border-radius: $border-radius;
-  }
-
-  a {
-    border: 5px solid $border-color;
-  }
-
-  table {
-    border: 5px solid $border-color;
-    border-radius: $border-radius;
-  }
 }
 
-input[type="text"] {
+textarea {
   border-radius: $border-radius;
 }
 
-input[type="password"] {
+img {
+  border-radius: $border-radius;
+}
+
+a {
+  border: 5px solid $border-color;
+
+  &:hover {
+    color: $hover-font;
+  }
+}
+
+table {
+  border: 5px solid $border-color;
+  border-radius: $border-radius;
+}
+
+button {
+  font-size: $font-size;
+  font-family: $font-family;
+
+  &:active {
+    color: $hover-font;
+  }
+}
+
+input,
+textarea {
+  border: 2px solid black;
   border-radius: $border-radius;
 }
