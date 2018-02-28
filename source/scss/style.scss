@@ -10,12 +10,6 @@ body {
   border-radius: $border-radius;
 }
 
-textarea {
-  border-radius: $border-radius;
-  font-size: $font-size;
-  font-family: $font-family;
-}
-
 img {
   border-radius: $border-radius;
 }
@@ -33,6 +27,12 @@ table {
   border-radius: $border-radius;
 }
 
+input,
+button {
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
 button {
   font-size: $font-size;
   font-family: $font-family;
@@ -40,6 +40,22 @@ button {
   &:active {
     color: $hover-font;
   }
+}
+
+textarea {
+  border-radius: $border-radius;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+input {
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+.button {
+  font-size: $font-size;
+  font-family: $font-family;
 }
 
 input,
