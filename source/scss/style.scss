@@ -21,6 +21,7 @@ input {
   font-family: $font-family;
   font-size: $font-size;
   border-radius: $border-radius;
+  border: 2px solid black;
 }
 
 img {
@@ -44,4 +45,5 @@ table {
   font-size: $font-size;
   font-family: $font-family;
   border-radius: $border-radius;
+  border: 5px solid $border-color;
 }
