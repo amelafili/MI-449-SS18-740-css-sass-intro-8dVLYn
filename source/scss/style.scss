@@ -10,6 +10,19 @@ body {
   border-radius: $border-radius;
 }
 
+textarea {
+  border-radius: $border-radius;
+  font-size: $font-size;
+  font-family: $font-family;
+  border: 2px solid black;
+}
+
+input {
+  font-family: $font-family;
+  font-size: $font-size;
+  border-radius: $border-radius;
+}
+
 img {
   border-radius: $border-radius;
 }
@@ -24,19 +37,6 @@ a {
 
 table {
   border: 5px solid $border-color;
-  border-radius: $border-radius;
-}
-
-textarea {
-  border-radius: $border-radius;
-  font-size: $font-size;
-  font-family: $font-family;
-  border: 2px solid black;
-}
-
-input {
-  font-family: $font-family;
-  font-size: $font-size;
   border-radius: $border-radius;
 }
 
