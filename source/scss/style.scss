@@ -7,25 +7,15 @@ body {
   color: $text-color;
   font-size: $font-size;
   font-family: $font-family;
-  border-radius: $border-radius;
 }
 
-textarea {
-  border-radius: $border-radius;
-  font-size: $font-size;
-  font-family: $font-family;
-  border: 2px solid black;
-}
-
-input {
+input,
+textarea,
+.button {
   font-family: $font-family;
   font-size: $font-size;
   border-radius: $border-radius;
   border: 2px solid black;
-}
-
-img {
-  border-radius: $border-radius;
 }
 
 a {
@@ -41,9 +31,10 @@ table {
   border-radius: $border-radius;
 }
 
-.button {
-  font-size: $font-size;
-  font-family: $font-family;
+img {
   border-radius: $border-radius;
+}
+
+.button {
   border: 5px solid $border-color;
 }
